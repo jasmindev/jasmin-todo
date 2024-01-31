@@ -1,5 +1,10 @@
 ## About the Backend Project
 
+In order to reinforce my NodeJS knowledge and improve myself, I first prepared a simple todolist project. In the backend part of the project, I used nodejs, expressjs and mongodb technologies.
+
+The frontend project was written by my wife with nextjs. The aim is to see that my backend project works with a frontend project other than postman. I thank her <3
+
+
 ## Getting Started
 
 - First, .env.example file name will be change to .env and write mongo db url
