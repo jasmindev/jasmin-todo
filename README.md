@@ -1,3 +1,17 @@
+## About the Backend Project
+
+## Getting Started
+
+- First, .env.example file name will be change to .env and write mongo db url
+
+```bash
+npm run serve
+```
+
+Backend will work with [http://localhost:8000] url.
+
+## About the Frontend Project
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
