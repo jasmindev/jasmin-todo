@@ -3,10 +3,13 @@ const mongoose = require("mongoose");
 const app = express();
 const cors = require("cors");
 const todoRoutes = require("./routes/todoRoutes.js");
+//const db = require("./config/db.js");
+const dotenv = require("dotenv");
 
-const PORT = 8000;
+dotenv.config();
 
 app.use(express.json());
+//db();
 
 app.use(
   cors({
@@ -26,8 +29,8 @@ mongoose
   )
   .then(() => {
     console.log("Connected to MongoDB");
-    app.listen(PORT, () => {
-      console.log(`Server started on port ${PORT}`);
+    app.listen(8000, () => {
+      console.log(`Server started on port 8000`);
     });
   })
   .catch((err) => {
